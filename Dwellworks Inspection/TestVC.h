@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestVC.h
 //  Dwellworks Inspection
 //
 //  Created by Austin Emser on 1/29/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TestVC : UIViewController
+-(IBAction)fillData:(id)sender;
 @end

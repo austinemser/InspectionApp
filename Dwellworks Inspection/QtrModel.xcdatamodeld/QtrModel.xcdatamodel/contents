@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Exterior" representedClassName="Exterior" syncable="YES">
+        <attribute name="comments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="condition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="inspection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Inspection" inverseName="exterior" inverseEntity="Inspection" syncable="YES"/>
+    </entity>
+    <entity name="Inspection" representedClassName="Inspection" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfWalkThrough" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="inspectedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="owner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pmFileNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="walkthroughType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exterior" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exterior" inverseName="inspection" inverseEntity="Exterior" syncable="YES"/>
+        <relationship name="interior" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Interior" inverseName="inspection" inverseEntity="Interior" syncable="YES"/>
+    </entity>
+    <entity name="Interior" representedClassName="Interior" syncable="YES">
+        <attribute name="comments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="condition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="inspection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Inspection" inverseName="interior" inverseEntity="Inspection" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Inspection" positionX="-128" positionY="-172" width="128" height="208"/>
+        <element name="Exterior" positionX="70" positionY="-9" width="128" height="118"/>
+        <element name="Interior" positionX="-324" positionY="20" width="128" height="118"/>
+    </elements>
+</model>
