@@ -11,7 +11,7 @@
 
 
 @interface SavedInspectionsCDTVC ()
-
+@property (nonatomic, strong) Inspection *inspection;
 @end
 
 @implementation SavedInspectionsCDTVC
@@ -35,6 +35,21 @@
     cell.textLabel.text = inspection.name;
     
     return cell;
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    self.inspection = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    [self performSegueWithIdentifier:@"Load Saved Qtr" sender:self];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier]isEqualToString:@"Load Saved Qtr"])
+    {
+        [segue.destinationViewController setInspection:self.inspection];
+    }
 }
 
 -(void)viewDidLoad

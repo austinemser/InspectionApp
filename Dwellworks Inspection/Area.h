@@ -1,5 +1,5 @@
 //
-//  Exterior.h
+//  Area.h
 //  Dwellworks Inspection
 //
 //  Created by Austin Emser on 1/31/14.
@@ -11,12 +11,13 @@
 
 @class Inspection;
 
-@interface Exterior : NSManagedObject
+@interface Area : NSManagedObject
 
-@property (nonatomic, retain) NSString * comments;
+@property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSString * type;
 @property (nonatomic, retain) NSString * condition;
 @property (nonatomic, retain) NSString * imageUrl;
-@property (nonatomic, retain) NSString * type;
+@property (nonatomic, retain) NSString * comments;
 @property (nonatomic, retain) Inspection *inspection;
 
 @end

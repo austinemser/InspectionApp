@@ -55,6 +55,17 @@
                 [exteriors addObject:exterior];
             }
             [inspection addExterior:exteriors];
+            
+            NSMutableSet *areas = [NSMutableSet set];
+            for(NSDictionary *dict in [QtrModel area])
+            {
+                Area *area = [NSEntityDescription insertNewObjectForEntityForName:@"Area" inManagedObjectContext:context];
+                area.name = dict[@"name"];
+                area.type = dict[@"type"];
+                area.condition = dict[@"condition"];
+                [areas addObject:area];
+            }
+            [inspection addArea:areas];
         }
         
         

@@ -10,9 +10,9 @@
 #import "QtrModel.h"
 #import "Interior.h"
 #import "Exterior.h"
+#import "Area.h"
 
 @interface Inspection (Create)
 +(Inspection *)inspectionWithName:(NSString *)name
                        inManagedObjectContext:(NSManagedObjectContext *)context;
-+ (BOOL) saveWithContext:(NSManagedObjectContext *)context;
 @end

@@ -1,5 +1,5 @@
 //
-//  SavedInspectionsCDTVC.h
+//  AreaCDTVC.h
 //  Dwellworks Inspection
 //
 //  Created by Austin Emser on 1/31/14.
@@ -8,10 +8,9 @@
 
 #import "CoreDataTableViewController.h"
 #import "Inspection.h"
-#import "QtrInspectionVC.h"
 
-@interface SavedInspectionsCDTVC : CoreDataTableViewController
+@interface AreaCDTVC : CoreDataTableViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong) NSDictionary *senderInfo;
 
 @end

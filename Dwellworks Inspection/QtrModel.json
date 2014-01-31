@@ -1,122 +1,32 @@
 {
-"QtrModel" :    [
-                 {
-                 "exterior": [
-                              {
-                              "type": "Landscaping",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Fences/Gates",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Pool/Spa/Hot Tub",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Garage",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Driveway/Walkaway",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Front Porch/Door",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Rear Porch/Door",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Patio/Deck",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Siding: Wood/Stucco",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Trim/Shutters",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Windows/Screens",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Gutters/Down Spouts",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Roof/Chimney",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Other",
-                              "condition": "good"
-                              }
-                              ],
-                 "interior": [
-                              {
-                              "type": "Landscaping",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Fences/Gates",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Pool/Spa/Hot Tub",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Garage",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Driveway/Walkaway",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Front Porch/Door",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Rear Porch/Door",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Patio/Deck",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Siding: Wood/Stucco",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Trim/Shutters",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Windows/Screens",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Gutters/Down Spouts",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Roof/Chimney",
-                              "condition": "good"
-                              },
-                              {
-                              "type": "Other",
-                              "condition": "good"
-                              }
-                              ]
-                 }
-                 ]
+    "area" : [
+              { "name" : "Exterior", "type": "Landscaping", "condition":"good",},
+              { "name" : "Exterior", "type": "Fences/Gates", "condition":"good"},
+              { "name" : "Exterior", "type": "Pool/Spa/Hot Tub", "condition":"good"},
+              { "name" : "Exterior", "type": "Garage", "condition":"good"},
+              { "name" : "Exterior", "type": "Driveway/Walkaway", "condition":"good"},
+              { "name" : "Exterior", "type": "Front Porch/Door", "condition":"good"},
+              { "name" : "Exterior", "type": "Rear Porch/Door", "condition":"good"},
+              { "name" : "Exterior", "type": "Patio/Deck", "condition":"good"},
+              { "name" : "Exterior", "type": "Siding: Wood/Stucco", "condition":"good"},
+              { "name" : "Exterior", "type": "Trim/Shutters", "condition":"good"},
+              { "name" : "Exterior", "type": "Windows/Screens", "condition":"good"},
+              { "name" : "Exterior", "type": "Gutters/Down Spouts", "condition":"good"},
+              { "name" : "Exterior", "type": "Roof/Chimney", "condition":"good"},
+              { "name" : "Exterior", "type": "Other", "condition":"good"},
+              { "name" : "Interior", "type": "Landscaping", "condition":"good"},
+              { "name" : "Interior", "type": "Fences/Gates", "condition":"good"},
+              { "name" : "Interior", "type": "Pool/Spa/Hot Tub", "condition":"good"},
+              { "name" : "Interior", "type": "Garage", "condition":"good"},
+              { "name" : "Interior", "type": "Driveway/Walkaway", "condition":"good"},
+              { "name" : "Interior", "type": "Front Porch/Door", "condition":"good"},
+              { "name" : "Interior", "type": "Rear Porch/Door", "condition":"good"},
+              { "name" : "Interior", "type": "Patio/Deck", "condition":"good"},
+              { "name" : "Interior", "type": "Siding: Wood/Stucco", "condition":"good"},
+              { "name" : "Interior", "type": "Trim/Shutters", "condition":"good"},
+              { "name" : "Interior", "type": "Windows/Screens", "condition":"good"},
+              { "name" : "Interior", "type": "Gutters/Down Spouts", "condition":"good"},
+              { "name" : "Interior", "type": "Roof/Chimney", "condition":"good"},
+              { "name" : "Interior", "type": "Other", "condition":"good"}
+              ]
 }

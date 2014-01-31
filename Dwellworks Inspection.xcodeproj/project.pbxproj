@@ -23,12 +23,8 @@
 		6E6B08A418998D1900A059E7 /* DwellworksAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08A318998D1900A059E7 /* DwellworksAPI.m */; };
 		6E6B08A718998D9900A059E7 /* DwellworksLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08A618998D9900A059E7 /* DwellworksLogin.m */; };
 		6E6B08AF1899A4FA00A059E7 /* QtrModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08AD1899A4FA00A059E7 /* QtrModel.xcdatamodeld */; };
-		6E6B08EA1899B25900A059E7 /* QtrModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B08E91899B25900A059E7 /* QtrModel.json */; };
 		6E6B08ED1899B2EA00A059E7 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08EC1899B2EA00A059E7 /* TestVC.m */; };
 		6E6B08F0189AE7E000A059E7 /* Inspection+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08EF189AE7E000A059E7 /* Inspection+Create.m */; };
-		6E6B08F3189AE9F500A059E7 /* Interior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08F2189AE9F500A059E7 /* Interior.m */; };
-		6E6B08F6189AE9F600A059E7 /* Inspection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08F5189AE9F600A059E7 /* Inspection.m */; };
-		6E6B08F9189AE9F600A059E7 /* Exterior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B08F8189AE9F600A059E7 /* Exterior.m */; };
 		6E6B08FC189AF4B900A059E7 /* Exterior.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B08FB189AF4B900A059E7 /* Exterior.json */; };
 		6E6B08FE189AF4C800A059E7 /* Interior.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B08FD189AF4C800A059E7 /* Interior.json */; };
 		6E6B0904189AFACB00A059E7 /* QtrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0903189AFACB00A059E7 /* QtrModel.m */; };
@@ -37,6 +33,12 @@
 		6E6B0914189BE8CF00A059E7 /* ExteriorCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0913189BE8CF00A059E7 /* ExteriorCDTVC.m */; };
 		6E6B0917189BF67E00A059E7 /* AppDelegate+MOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0916189BF67E00A059E7 /* AppDelegate+MOC.m */; };
 		6E6B091B189C048A00A059E7 /* SavedInspectionsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B091A189C048A00A059E7 /* SavedInspectionsCDTVC.m */; };
+		6E6B091D189C3D6100A059E7 /* QtrModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B091C189C3D6100A059E7 /* QtrModel.json */; };
+		6E6B0920189C3FAD00A059E7 /* AreaCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B091F189C3FAD00A059E7 /* AreaCDTVC.m */; };
+		6E6B092F189C434D00A059E7 /* Interior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B092E189C434D00A059E7 /* Interior.m */; };
+		6E6B0932189C434D00A059E7 /* Inspection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0931189C434D00A059E7 /* Inspection.m */; };
+		6E6B0935189C434D00A059E7 /* Exterior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0934189C434D00A059E7 /* Exterior.m */; };
+		6E6B0938189C434D00A059E7 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0937189C434D00A059E7 /* Area.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,17 +75,10 @@
 		6E6B08A618998D9900A059E7 /* DwellworksLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwellworksLogin.m; sourceTree = "<group>"; };
 		6E6B08A818998DE800A059E7 /* DwellworksAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwellworksAPIConfig.h; sourceTree = "<group>"; };
 		6E6B08AE1899A4FA00A059E7 /* QtrModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QtrModel.xcdatamodel; sourceTree = "<group>"; };
-		6E6B08E91899B25900A059E7 /* QtrModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QtrModel.json; sourceTree = "<group>"; };
 		6E6B08EB1899B2EA00A059E7 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		6E6B08EC1899B2EA00A059E7 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		6E6B08EE189AE7E000A059E7 /* Inspection+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Inspection+Create.h"; sourceTree = "<group>"; };
 		6E6B08EF189AE7E000A059E7 /* Inspection+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Inspection+Create.m"; sourceTree = "<group>"; };
-		6E6B08F1189AE9F500A059E7 /* Interior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interior.h; sourceTree = "<group>"; };
-		6E6B08F2189AE9F500A059E7 /* Interior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interior.m; sourceTree = "<group>"; };
-		6E6B08F4189AE9F600A059E7 /* Inspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inspection.h; sourceTree = "<group>"; };
-		6E6B08F5189AE9F600A059E7 /* Inspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inspection.m; sourceTree = "<group>"; };
-		6E6B08F7189AE9F600A059E7 /* Exterior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exterior.h; sourceTree = "<group>"; };
-		6E6B08F8189AE9F600A059E7 /* Exterior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exterior.m; sourceTree = "<group>"; };
 		6E6B08FB189AF4B900A059E7 /* Exterior.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Exterior.json; sourceTree = "<group>"; };
 		6E6B08FD189AF4C800A059E7 /* Interior.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Interior.json; sourceTree = "<group>"; };
 		6E6B0902189AFACB00A059E7 /* QtrModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QtrModel.h; sourceTree = "<group>"; };
@@ -99,6 +94,17 @@
 		6E6B0918189BF97200A059E7 /* InspectionDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InspectionDatabaseAvailability.h; sourceTree = "<group>"; };
 		6E6B0919189C048A00A059E7 /* SavedInspectionsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedInspectionsCDTVC.h; sourceTree = "<group>"; };
 		6E6B091A189C048A00A059E7 /* SavedInspectionsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedInspectionsCDTVC.m; sourceTree = "<group>"; };
+		6E6B091C189C3D6100A059E7 /* QtrModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QtrModel.json; sourceTree = "<group>"; };
+		6E6B091E189C3FAD00A059E7 /* AreaCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaCDTVC.h; sourceTree = "<group>"; };
+		6E6B091F189C3FAD00A059E7 /* AreaCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaCDTVC.m; sourceTree = "<group>"; };
+		6E6B092D189C434D00A059E7 /* Interior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interior.h; sourceTree = "<group>"; };
+		6E6B092E189C434D00A059E7 /* Interior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interior.m; sourceTree = "<group>"; };
+		6E6B0930189C434D00A059E7 /* Inspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inspection.h; sourceTree = "<group>"; };
+		6E6B0931189C434D00A059E7 /* Inspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inspection.m; sourceTree = "<group>"; };
+		6E6B0933189C434D00A059E7 /* Exterior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exterior.h; sourceTree = "<group>"; };
+		6E6B0934189C434D00A059E7 /* Exterior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exterior.m; sourceTree = "<group>"; };
+		6E6B0936189C434D00A059E7 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		6E6B0937189C434D00A059E7 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,13 +225,14 @@
 			children = (
 				6E6B08FA189AF49900A059E7 /* QtrModelJSON */,
 				6E6B08AD1899A4FA00A059E7 /* QtrModel.xcdatamodeld */,
-				6E6B08F7189AE9F600A059E7 /* Exterior.h */,
-				6E6B08F8189AE9F600A059E7 /* Exterior.m */,
-				6E6B08F4189AE9F600A059E7 /* Inspection.h */,
-				6E6B08F5189AE9F600A059E7 /* Inspection.m */,
-				6E6B08F1189AE9F500A059E7 /* Interior.h */,
-				6E6B08F2189AE9F500A059E7 /* Interior.m */,
-				6E6B08E91899B25900A059E7 /* QtrModel.json */,
+				6E6B0936189C434D00A059E7 /* Area.h */,
+				6E6B0937189C434D00A059E7 /* Area.m */,
+				6E6B0933189C434D00A059E7 /* Exterior.h */,
+				6E6B0934189C434D00A059E7 /* Exterior.m */,
+				6E6B0930189C434D00A059E7 /* Inspection.h */,
+				6E6B0931189C434D00A059E7 /* Inspection.m */,
+				6E6B092D189C434D00A059E7 /* Interior.h */,
+				6E6B092E189C434D00A059E7 /* Interior.m */,
 				6E6B08EE189AE7E000A059E7 /* Inspection+Create.h */,
 				6E6B08EF189AE7E000A059E7 /* Inspection+Create.m */,
 			);
@@ -244,6 +251,8 @@
 				6E6B0906189B006300A059E7 /* CoreDataTableViewController.m */,
 				6E6B0919189C048A00A059E7 /* SavedInspectionsCDTVC.h */,
 				6E6B091A189C048A00A059E7 /* SavedInspectionsCDTVC.m */,
+				6E6B091E189C3FAD00A059E7 /* AreaCDTVC.h */,
+				6E6B091F189C3FAD00A059E7 /* AreaCDTVC.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -255,6 +264,7 @@
 				6E6B08FD189AF4C800A059E7 /* Interior.json */,
 				6E6B0902189AFACB00A059E7 /* QtrModel.h */,
 				6E6B0903189AFACB00A059E7 /* QtrModel.m */,
+				6E6B091C189C3D6100A059E7 /* QtrModel.json */,
 			);
 			name = QtrModelJSON;
 			sourceTree = "<group>";
@@ -345,11 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E6B08851899879700A059E7 /* Images.xcassets in Resources */,
-				6E6B08EA1899B25900A059E7 /* QtrModel.json in Resources */,
 				6E6B08771899879700A059E7 /* InfoPlist.strings in Resources */,
 				6E6B08801899879700A059E7 /* Main.storyboard in Resources */,
 				6E6B08FC189AF4B900A059E7 /* Exterior.json in Resources */,
 				6E6B08FE189AF4C800A059E7 /* Interior.json in Resources */,
+				6E6B091D189C3D6100A059E7 /* QtrModel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +378,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6B0938189C434D00A059E7 /* Area.m in Sources */,
+				6E6B0935189C434D00A059E7 /* Exterior.m in Sources */,
 				6E6B08A418998D1900A059E7 /* DwellworksAPI.m in Sources */,
 				6E6B08F0189AE7E000A059E7 /* Inspection+Create.m in Sources */,
 				6E6B0907189B006300A059E7 /* CoreDataTableViewController.m in Sources */,
@@ -378,12 +390,12 @@
 				6E6B087D1899879700A059E7 /* AppDelegate.m in Sources */,
 				6E6B091B189C048A00A059E7 /* SavedInspectionsCDTVC.m in Sources */,
 				6E6B08791899879700A059E7 /* main.m in Sources */,
-				6E6B08F9189AE9F600A059E7 /* Exterior.m in Sources */,
 				6E6B0904189AFACB00A059E7 /* QtrModel.m in Sources */,
 				6E6B08A718998D9900A059E7 /* DwellworksLogin.m in Sources */,
-				6E6B08F3189AE9F500A059E7 /* Interior.m in Sources */,
-				6E6B08F6189AE9F600A059E7 /* Inspection.m in Sources */,
+				6E6B0920189C3FAD00A059E7 /* AreaCDTVC.m in Sources */,
+				6E6B0932189C434D00A059E7 /* Inspection.m in Sources */,
 				6E6B08AF1899A4FA00A059E7 /* QtrModel.xcdatamodeld in Sources */,
+				6E6B092F189C434D00A059E7 /* Interior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

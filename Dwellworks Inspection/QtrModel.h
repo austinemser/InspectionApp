@@ -11,4 +11,6 @@
 @interface QtrModel : NSObject
 +(NSArray *)interior;
 +(NSArray *)exterior;
++(NSArray *)area;
+
 @end

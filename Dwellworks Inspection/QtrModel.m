@@ -30,5 +30,14 @@
     return array;
 }
 
++(NSArray *)area
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"QtrModel" ofType:@"json"];
+    NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:nil];
+    NSError *error;
+    NSDictionary *results = jsonData ? [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error] : nil;
+    NSArray *array = results[@"area"];
+    return array;
+}
 
 @end
