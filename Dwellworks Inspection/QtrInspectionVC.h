@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Inspection.h"
+#import "AreaCDTVC.h"
 
 @interface QtrInspectionVC : UIViewController
 
@@ -16,5 +17,8 @@
 -(IBAction)save:(UIBarButtonItem *)sender;
 
 -(IBAction)exterior:(id)sender;
+-(IBAction)area:(UIButton *)sender;
+
+@property (nonatomic, strong) IBOutletCollection(UIButton) NSArray *areas;
 
 @end

@@ -8,9 +8,13 @@
 
 #import "CoreDataTableViewController.h"
 #import "Inspection.h"
+#import "Area.h"
 
 @interface AreaCDTVC : CoreDataTableViewController
 
 @property (nonatomic, strong) NSDictionary *senderInfo;
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+
+-(IBAction)save:(UIBarButtonItem *)sender;
 
 @end

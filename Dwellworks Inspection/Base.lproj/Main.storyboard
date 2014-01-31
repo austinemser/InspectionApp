@@ -167,6 +167,19 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         <state key="normal" title="Interior">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="area:" destination="YNH-Tl-5mI" eventType="touchUpInside" id="rb9-oR-Wc9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMI-h2-Fcd">
+                                        <rect key="frame" x="37" y="747" width="53" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Exterior">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="area:" destination="YNH-Tl-5mI" eventType="touchUpInside" id="Ky5-JP-z7f"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -206,7 +219,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <segue destination="XMi-S1-bm5" kind="push" identifier="Exterior Segue" id="oZT-8Y-zkm"/>
+                        <outletCollection property="areas" destination="vAJ-1n-I4n" id="uBY-ht-0oR"/>
+                        <outletCollection property="areas" destination="fMI-h2-Fcd" id="c95-2B-6Ek"/>
+                        <segue destination="Nm5-Uf-rw4" kind="push" identifier="Area Segue" id="QEj-aa-EHf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vuN-68-qcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -218,12 +233,12 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <tableViewController id="XMi-S1-bm5" customClass="ExteriorCDTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nQb-SV-kyL">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Exterior Cell" textLabel="V9o-jY-Cgj" detailTextLabel="Qfs-mG-tbT" style="IBUITableViewCellStyleValue1" id="uzF-NT-8rf">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uzF-NT-8rf" id="z7A-JE-dEo">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -262,7 +277,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Yj-4M-92F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2129" y="-613"/>
+            <point key="canvasLocation" x="-1584" y="-270"/>
         </scene>
         <!--Navigation Controller - New Quartly Inspection-->
         <scene sceneID="nbM-OW-2xg">
@@ -420,12 +435,12 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <tableViewController id="Nm5-Uf-rw4" customClass="AreaCDTVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Lnz-rS-eCj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Area Cell" textLabel="TQF-Df-QfU" detailTextLabel="kX1-KS-lhE" style="IBUITableViewCellStyleValue1" id="DtI-LZ-1Ca">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DtI-LZ-1Ca" id="siz-pp-50w">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -454,10 +469,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <outlet property="delegate" destination="Nm5-Uf-rw4" id="ray-qt-RrC"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="maA-EG-yKQ">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="aou-Mw-Ner"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uAR-7A-Kp8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2129" y="506"/>
+            <point key="canvasLocation" x="-2124" y="-613"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -54,6 +54,7 @@
 
 -(void)viewDidLoad
 {
+    
     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Inspection"];
     request.predicate = nil;
     request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"name"
@@ -65,6 +66,7 @@
                                                                         managedObjectContext:self.managedObjectContext
                                                                           sectionNameKeyPath:nil
                                                                                    cacheName:nil];
+     
 }
 
 
