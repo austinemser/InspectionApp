@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Inspection.h"
 
 @interface QtrInspectionVC : UIViewController
+
+@property (nonatomic, strong) Inspection *inspection;
+
+-(IBAction)exterior:(id)sender;
 
 @end
