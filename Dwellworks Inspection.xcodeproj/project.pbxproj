@@ -34,6 +34,7 @@
 		6E6B0904189AFACB00A059E7 /* QtrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0903189AFACB00A059E7 /* QtrModel.m */; };
 		6E6B0907189B006300A059E7 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0906189B006300A059E7 /* CoreDataTableViewController.m */; };
 		6E6B090D189B0D8200A059E7 /* QtrInspectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B090C189B0D8200A059E7 /* QtrInspectionVC.m */; };
+		6E6B0914189BE8CF00A059E7 /* ExteriorCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0913189BE8CF00A059E7 /* ExteriorCDTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		6E6B0906189B006300A059E7 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
 		6E6B090B189B0D8200A059E7 /* QtrInspectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QtrInspectionVC.h; sourceTree = "<group>"; };
 		6E6B090C189B0D8200A059E7 /* QtrInspectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QtrInspectionVC.m; sourceTree = "<group>"; };
+		6E6B0912189BE8CF00A059E7 /* ExteriorCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExteriorCDTVC.h; sourceTree = "<group>"; };
+		6E6B0913189BE8CF00A059E7 /* ExteriorCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExteriorCDTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,7 @@
 		6E6B08AC1899954C00A059E7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E6B0911189BE8B900A059E7 /* SubHeaders */,
 				6E6B08EB1899B2EA00A059E7 /* TestVC.h */,
 				6E6B08EC1899B2EA00A059E7 /* TestVC.m */,
 				6E6B090B189B0D8200A059E7 /* QtrInspectionVC.h */,
@@ -241,6 +245,15 @@
 				6E6B0903189AFACB00A059E7 /* QtrModel.m */,
 			);
 			name = QtrModelJSON;
+			sourceTree = "<group>";
+		};
+		6E6B0911189BE8B900A059E7 /* SubHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				6E6B0912189BE8CF00A059E7 /* ExteriorCDTVC.h */,
+				6E6B0913189BE8CF00A059E7 /* ExteriorCDTVC.m */,
+			);
+			name = SubHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +360,7 @@
 				6E6B08F0189AE7E000A059E7 /* Inspection+Create.m in Sources */,
 				6E6B0907189B006300A059E7 /* CoreDataTableViewController.m in Sources */,
 				6E6B08ED1899B2EA00A059E7 /* TestVC.m in Sources */,
+				6E6B0914189BE8CF00A059E7 /* ExteriorCDTVC.m in Sources */,
 				6E6B090D189B0D8200A059E7 /* QtrInspectionVC.m in Sources */,
 				6E6B087D1899879700A059E7 /* AppDelegate.m in Sources */,
 				6E6B08791899879700A059E7 /* main.m in Sources */,
