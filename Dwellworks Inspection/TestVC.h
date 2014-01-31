@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Inspection.h"
 
 @interface TestVC : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField *inspectionName;
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong) Inspection *inspection;
 -(IBAction)fillData:(id)sender;
+-(IBAction)createQtrInspection:(id)sender;
+
 @end

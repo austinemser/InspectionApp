@@ -7,13 +7,35 @@
 //
 
 #import "TestVC.h"
+#import "InspectionDatabaseAvailability.h"
+#import "Inspection+create.h"
+#import "QtrInspectionVC.h"
+
 
 @interface TestVC ()
 
 @end
 
 @implementation TestVC
+@synthesize inspectionName;
 
+-(void)awakeFromNib
+{
+    [[NSNotificationCenter defaultCenter] addObserverForName:InspectionDatabaseAvailabilityNotification
+                                                      object:nil
+                                                       queue:nil
+                                                  usingBlock:^(NSNotification *note) {
+                                                      self.managedObjectContext = note.userInfo[InspectionDatabaseAvailabilityContext];
+                                                  }];
+}
+
+
+-(IBAction)createQtrInspection:(id)sender
+{
+    self.inspection = [Inspection inspectionWithName:inspectionName.text inManagedObjectContext:self.managedObjectContext];
+    
+    [self performSegueWithIdentifier:@"QtrInspection Segue" sender:self];
+}
 
 -(IBAction)fillData:(id)sender
 {
@@ -30,6 +52,17 @@
     
     
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    if([[segue identifier] isEqualToString:@"QtrInspection Segue"])
+    {
+        [segue.destinationViewController setInspection:self.inspection];
+        
+    }
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

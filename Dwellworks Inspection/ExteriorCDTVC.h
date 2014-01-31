@@ -12,6 +12,5 @@
 @interface ExteriorCDTVC : CoreDataTableViewController
 
 @property (nonatomic, strong) Inspection *inspection;
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 
 @end

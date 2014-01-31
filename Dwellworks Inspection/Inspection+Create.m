@@ -31,7 +31,7 @@
             inspection = [matches lastObject];
         } else
         {
-            inspection = [NSEntityDescription insertNewObjectForEntityForName:@"inspection"
+            inspection = [NSEntityDescription insertNewObjectForEntityForName:@"Inspection"
                                                        inManagedObjectContext:context];
             
             inspection.name = name;

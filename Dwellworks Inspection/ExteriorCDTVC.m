@@ -15,10 +15,17 @@
 
 @implementation ExteriorCDTVC
 
--(void)setManagedObjectContext:(NSManagedObjectContext *)managedObjectContext
+
+-(void)setInspection:(Inspection *)inspection
 {
-    _managedObjectContext = managedObjectContext;
+    _inspection = inspection;
+    NSLog(@"%@", _inspection);
+    [self setupFetchedResultsController];
     
+}
+
+-(void)setupFetchedResultsController
+{
     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Exterior"];
     request.predicate = [NSPredicate predicateWithFormat:@"inspection = %@", self.inspection];
     request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"type"
@@ -26,7 +33,7 @@
                                                                selector:@selector(localizedStandardCompare:)]];
     
     self.fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request
-                                                                        managedObjectContext:managedObjectContext
+                                                                        managedObjectContext:self.inspection.managedObjectContext
                                                                           sectionNameKeyPath:nil
                                                                                    cacheName:nil];
     

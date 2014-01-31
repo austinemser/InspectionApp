@@ -35,6 +35,7 @@
 		6E6B0907189B006300A059E7 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0906189B006300A059E7 /* CoreDataTableViewController.m */; };
 		6E6B090D189B0D8200A059E7 /* QtrInspectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B090C189B0D8200A059E7 /* QtrInspectionVC.m */; };
 		6E6B0914189BE8CF00A059E7 /* ExteriorCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0913189BE8CF00A059E7 /* ExteriorCDTVC.m */; };
+		6E6B0917189BF67E00A059E7 /* AppDelegate+MOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B0916189BF67E00A059E7 /* AppDelegate+MOC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,9 @@
 		6E6B090C189B0D8200A059E7 /* QtrInspectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QtrInspectionVC.m; sourceTree = "<group>"; };
 		6E6B0912189BE8CF00A059E7 /* ExteriorCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExteriorCDTVC.h; sourceTree = "<group>"; };
 		6E6B0913189BE8CF00A059E7 /* ExteriorCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExteriorCDTVC.m; sourceTree = "<group>"; };
+		6E6B0915189BF67E00A059E7 /* AppDelegate+MOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MOC.h"; sourceTree = "<group>"; };
+		6E6B0916189BF67E00A059E7 /* AppDelegate+MOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MOC.m"; sourceTree = "<group>"; };
+		6E6B0918189BF97200A059E7 /* InspectionDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InspectionDatabaseAvailability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,9 @@
 				6E6B08A118998CAB00A059E7 /* DwellworksAPI */,
 				6E6B087B1899879700A059E7 /* AppDelegate.h */,
 				6E6B087C1899879700A059E7 /* AppDelegate.m */,
+				6E6B0918189BF97200A059E7 /* InspectionDatabaseAvailability.h */,
+				6E6B0915189BF67E00A059E7 /* AppDelegate+MOC.h */,
+				6E6B0916189BF67E00A059E7 /* AppDelegate+MOC.m */,
 				6E6B087E1899879700A059E7 /* Main.storyboard */,
 				6E6B08841899879700A059E7 /* Images.xcassets */,
 				6E6B08731899879700A059E7 /* Supporting Files */,
@@ -362,6 +369,7 @@
 				6E6B08ED1899B2EA00A059E7 /* TestVC.m in Sources */,
 				6E6B0914189BE8CF00A059E7 /* ExteriorCDTVC.m in Sources */,
 				6E6B090D189B0D8200A059E7 /* QtrInspectionVC.m in Sources */,
+				6E6B0917189BF67E00A059E7 /* AppDelegate+MOC.m in Sources */,
 				6E6B087D1899879700A059E7 /* AppDelegate.m in Sources */,
 				6E6B08791899879700A059E7 /* main.m in Sources */,
 				6E6B08F9189AE9F600A059E7 /* Exterior.m in Sources */,
