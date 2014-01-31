@@ -14,4 +14,5 @@
 @interface Inspection (Create)
 +(Inspection *)inspectionWithName:(NSString *)name
                        inManagedObjectContext:(NSManagedObjectContext *)context;
++ (BOOL) saveWithContext:(NSManagedObjectContext *)context;
 @end

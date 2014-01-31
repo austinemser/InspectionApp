@@ -15,11 +15,21 @@
 
 @implementation ExteriorCDTVC
 
+-(IBAction)save:(UIBarButtonItem *)sender
+{
+    NSError *error = nil;
+    if(self.inspection.managedObjectContext != nil)
+    {
+        if([self.inspection.managedObjectContext hasChanges] && ![self.inspection.managedObjectContext save:&error])
+        {
+            NSLog(@"Unresolved error %@", error);
+        }
+    }
+}
 
 -(void)setInspection:(Inspection *)inspection
 {
     _inspection = inspection;
-    NSLog(@"%@", _inspection);
     [self setupFetchedResultsController];
     
 }

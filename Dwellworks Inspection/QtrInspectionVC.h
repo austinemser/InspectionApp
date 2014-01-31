@@ -13,6 +13,8 @@
 
 @property (nonatomic, strong) Inspection *inspection;
 
+-(IBAction)save:(UIBarButtonItem *)sender;
+
 -(IBAction)exterior:(id)sender;
 
 @end

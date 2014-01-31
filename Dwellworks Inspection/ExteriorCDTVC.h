@@ -9,8 +9,11 @@
 #import "CoreDataTableViewController.h"
 #import "Inspection.h"
 
+
 @interface ExteriorCDTVC : CoreDataTableViewController
 
 @property (nonatomic, strong) Inspection *inspection;
+
+-(IBAction)save:(UIBarButtonItem *)sender;
 
 @end
