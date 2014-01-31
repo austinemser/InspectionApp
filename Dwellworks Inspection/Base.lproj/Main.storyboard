@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="47" y="-252"/>
         </scene>
-        <!--View Controller-->
+        <!--Qtr InspectionVC-->
         <scene sceneID="ZCT-5r-ALr">
             <objects>
-                <viewController id="YNH-Tl-5mI" sceneMemberID="viewController">
+                <viewController id="YNH-Tl-5mI" customClass="QtrInspectionVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r1c-lw-gLx"/>
                         <viewControllerLayoutGuide type="bottom" id="kAo-s5-IHP"/>
@@ -253,7 +253,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         </timeZone>
                                     </datePicker>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Walk-Through Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LX-D7-DIA">
-                                        <rect key="frame" x="86" y="479" width="148" height="21"/>
+                                        <rect key="frame" x="86" y="508" width="148" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
